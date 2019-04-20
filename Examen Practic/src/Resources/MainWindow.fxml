@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+    <tabs>
+        <Tab text="Cars">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <Button layoutX="14.0" layoutY="277.0" mnemonicParsing="false" text="Add Car" />
+                    </children></AnchorPane>
+            </content>
+        </Tab>
+        <Tab text="Rents">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <Button layoutX="14.0" layoutY="266.0" mnemonicParsing="false" text="Add rent" />
+                    </children>
+                </AnchorPane>
+            </content>
+        </Tab>
+        <Tab text="Reports">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <Button layoutX="14.0" layoutY="266.0" mnemonicParsing="false" text="Km report" />
+                        <Button layoutX="179.0" layoutY="266.0" mnemonicParsing="false" text="Incomes report" />
+                        <Button layoutX="359.0" layoutY="266.0" mnemonicParsing="false" text="Ordered list by rent days" />
+                    </children></AnchorPane>
+            </content>
+        </Tab>
+    </tabs>
+</TabPane>
